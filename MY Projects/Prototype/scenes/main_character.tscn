@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqwdnt4yv628d"]
+
+[ext_resource type="Texture2D" uid="uid://bp3c5nlxqhsri" path="res://Tiger.png" id="1_n0ib1"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rxydk"]
+radius = 8.83333
+height = 21.6667
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-3.74999, 7.58334)
+scale = Vector2(0.0440104, 0.0440104)
+texture = ExtResource("1_n0ib1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 8)
+shape = SubResource("CapsuleShape2D_rxydk")

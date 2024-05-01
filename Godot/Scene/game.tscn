@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://banfsi1ghih3l"]
+
+[ext_resource type="Texture2D" uid="uid://b3uiyl57asjcv" path="res://keh.jpg" id="1_fkhw3"]
+
+[node name="Game" type="Node2D"]
+
+[node name="TextureGroundRect" type="TextureRect" parent="."]
+offset_left = -40.0
+offset_top = -22.0
+offset_right = 1292.0
+offset_bottom = 720.0
+texture = ExtResource("1_fkhw3")
+stretch_mode = 1
